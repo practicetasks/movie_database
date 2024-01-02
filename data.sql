@@ -169,7 +169,7 @@ insert into movies_genres (movie_id, genre_id) values ((select id from movies wh
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Матрица'), (select id from genres where name = 'боевик'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Матрица'), (select id from genres where name = 'фантастика'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Матрица'), (select id from genres where name = 'триллер'));
-insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Унесенные призраками'), (select id from genres where name = 'аниме '));
+insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Унесенные призраками'), (select id from genres where name = 'аниме'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Унесенные призраками'), (select id from genres where name = 'семейный'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Унесенные призраками'), (select id from genres where name = 'анимация'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Унесенные призраками'), (select id from genres where name = 'приключения'));
@@ -200,7 +200,7 @@ insert into movies_genres (movie_id, genre_id) values ((select id from movies wh
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Стражи Галактики. Часть 3'), (select id from genres where name = 'фантастика'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Стражи Галактики. Часть 3'), (select id from genres where name = 'боевик'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Стражи Галактики. Часть 3'), (select id from genres where name = 'приключения'));
-insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Ходячий замок'), (select id from genres where name = 'аниме '));
+insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Ходячий замок'), (select id from genres where name = 'аниме'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Ходячий замок'), (select id from genres where name = 'сказка'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Ходячий замок'), (select id from genres where name = 'фантастика'));
 insert into movies_genres (movie_id, genre_id) values ((select id from movies where name = 'Ходячий замок'), (select id from genres where name = 'мелодрама'));
